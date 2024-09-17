@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flexbox;
+    max-width: 62.5rem;
+    border: 2px solid gray;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: rgb(216, 237, 230);
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 220px 175px 160px;
+   justify-content:left;
+   
+}
+.item{
+    text-align: center;
+    padding: 20px;
+    
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 10px 300px;
+   justify-content:left;
+   
+}
+.item2{
+    text-align:left;
+    padding: 20px;
+    
+    
+}
+
+#listTask{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight:400 ;
+    color: rgb(231, 36, 36);
+    justify-content:center;
+    
+
+}
+#listItemTask{
+    width: 500px;
+    height: 3.125rem;
+    background-color:white;
+    border: 2px solid gray;
+    list-style-position: inside;
+}
+#taskText{
+    width: 200px;
+    height: 46px;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight:400 ;
+}
+
+#addButton
+{
+       background-color:rgb(46, 207, 89);
+        border-radius: 12px;
+        padding: 10px 20px;
+        
+        color: black;
+        box-shadow: inset;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: larger;
+        font-weight:400 ;
+}
+
+#deleteButton{
+    background-color:rgb(230, 76, 94);
+    border-radius: 12px;
+        padding: 10px 20px;
+        color: black;
+        box-shadow: inset;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: larger;
+        font-weight:400 ;
+}
